@@ -1,6 +1,6 @@
 ### A Pluto.jl notebook ###
 # v0.20.21
-
+# (CHANGED UP SOME CONSTANT VALUES, MASS AND LENGTHS)
 using Markdown
 using InteractiveUtils
 
