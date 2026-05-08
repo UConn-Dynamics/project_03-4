@@ -44,17 +44,17 @@ q = [x_1,\; y_1,\; \theta_1,\; x_2,\; y_2,\; \theta_2]^T
 # ╔═╡ 7fe85fa0-e944-4ffd-8415-8b898e3ea053
 begin
       const m1 = 0.1
-      const m2 = 0.3
-      const L  = 0.4
-      const I1 = 0.01                  
-      const I2 = (1/12) * m2 * L^2
+      const m2 = 0.12
+      const L  = 0.9
+      const I1 = 0.02                  
+      const I2 = (1/14) * m2 * L^2
       const k_spring = 10.0
       const g_gravity = 9.81
 
       const M_matrix = Diagonal([m1, m1, I1, m2, m2, I2])
 
       const alpha_b = 10.0
-      const beta_b  = 10.0
+      const beta_b  = 15.0
 end
 
 # ╔═╡ 97ac7684-c049-4516-b74a-fa256369b8fa
